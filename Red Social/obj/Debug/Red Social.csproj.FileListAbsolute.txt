@@ -1,0 +1,33 @@
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social\Red Social\obj\Debug\Red_Social.Frm_Chats.resources
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social\Red Social\obj\Debug\Red_Social.Frm_Principal.resources
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social\Red Social\obj\Debug\Red_Social.JMControles.JMTextBox.resources
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social\Red Social\obj\Debug\Red_Social.Properties.Resources.resources
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social\Red Social\obj\Debug\Red Social.csproj.GenerateResource.cache
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social\Red Social\obj\Debug\Red Social.csproj.CoreCompileInputs.cache
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social\Red Social\obj\Debug\Red Social.csprojAssemblyReference.cache
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social\Red Social\bin\Debug\Red Social.exe.config
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social\Red Social\bin\Debug\Red Social.exe
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social\Red Social\bin\Debug\Red Social.pdb
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social\Red Social\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social\Red Social\bin\Debug\Guna.UI.dll
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social\Red Social\obj\Debug\Red Social.csproj.CopyComplete
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social\Red Social\obj\Debug\Red Social.exe
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social\Red Social\obj\Debug\Red Social.pdb
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social\Red Social\bin\Debug\Klik.Windows.Forms.EntryLib.V2.2005.dll
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social\Red Social\obj\Debug\Red Social.exe.licenses
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social Subir\Red Social\bin\Debug\Red Social.exe.config
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social Subir\Red Social\bin\Debug\Red Social.exe
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social Subir\Red Social\bin\Debug\Red Social.pdb
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social Subir\Red Social\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social Subir\Red Social\bin\Debug\Guna.UI.dll
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social Subir\Red Social\bin\Debug\Klik.Windows.Forms.EntryLib.V2.2005.dll
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social Subir\Red Social\obj\Debug\Red Social.csprojAssemblyReference.cache
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social Subir\Red Social\obj\Debug\Red_Social.Frm_Chats.resources
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social Subir\Red Social\obj\Debug\Red_Social.Frm_Principal.resources
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social Subir\Red Social\obj\Debug\Red_Social.Properties.Resources.resources
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social Subir\Red Social\obj\Debug\Red Social.csproj.GenerateResource.cache
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social Subir\Red Social\obj\Debug\Red Social.exe.licenses
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social Subir\Red Social\obj\Debug\Red Social.csproj.CoreCompileInputs.cache
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social Subir\Red Social\obj\Debug\Red Social.csproj.CopyComplete
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social Subir\Red Social\obj\Debug\Red Social.exe
+D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social Subir\Red Social\obj\Debug\Red Social.pdb
