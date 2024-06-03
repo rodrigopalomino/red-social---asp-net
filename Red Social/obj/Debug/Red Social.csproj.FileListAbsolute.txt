@@ -31,3 +31,16 @@ D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social Subir\Red Social\obj\Debug\Red 
 D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social Subir\Red Social\obj\Debug\Red Social.csproj.CopyComplete
 D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social Subir\Red Social\obj\Debug\Red Social.exe
 D:\Sistemas 2020 JEINER\SISTEMAS 2021\Red Social Subir\Red Social\obj\Debug\Red Social.pdb
+C:\Users\USER\Downloads\Red social - asp net\Red Social\bin\Debug\Red Social.exe.config
+C:\Users\USER\Downloads\Red social - asp net\Red Social\bin\Debug\Red Social.exe
+C:\Users\USER\Downloads\Red social - asp net\Red Social\bin\Debug\Red Social.pdb
+C:\Users\USER\Downloads\Red social - asp net\Red Social\obj\Debug\Red Social.csproj.AssemblyReference.cache
+C:\Users\USER\Downloads\Red social - asp net\Red Social\obj\Debug\Red_Social.Frm_Chats.resources
+C:\Users\USER\Downloads\Red social - asp net\Red Social\obj\Debug\Red_Social.Frm_Principal.resources
+C:\Users\USER\Downloads\Red social - asp net\Red Social\obj\Debug\Red_Social.Properties.Resources.resources
+C:\Users\USER\Downloads\Red social - asp net\Red Social\obj\Debug\Red Social.csproj.GenerateResource.cache
+C:\Users\USER\Downloads\Red social - asp net\Red Social\obj\Debug\Red Social.exe.licenses
+C:\Users\USER\Downloads\Red social - asp net\Red Social\obj\Debug\Red Social.csproj.CoreCompileInputs.cache
+C:\Users\USER\Downloads\Red social - asp net\Red Social\obj\Debug\Red Social.csproj.Up2Date
+C:\Users\USER\Downloads\Red social - asp net\Red Social\obj\Debug\Red Social.exe
+C:\Users\USER\Downloads\Red social - asp net\Red Social\obj\Debug\Red Social.pdb

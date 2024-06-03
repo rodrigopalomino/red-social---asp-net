@@ -41,17 +41,12 @@ namespace Red_Social
             this.gunaSeparator2 = new Guna.UI.WinForms.GunaSeparator();
             this.gunaSeparator1 = new Guna.UI.WinForms.GunaSeparator();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pic_fotoChats = new Guna.UI.WinForms.GunaCirclePictureBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.bt_mensajes = new System.Windows.Forms.Button();
             this.pnl_InfoPer = new System.Windows.Forms.Panel();
             this.pic_FotoinfoPer = new Guna.UI.WinForms.GunaCirclePictureBox();
             this.label13 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
-            this.formHijo = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.timerAbrir = new System.Windows.Forms.Timer(this.components);
             this.timerCerrar = new System.Windows.Forms.Timer(this.components);
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
@@ -60,13 +55,9 @@ namespace Red_Social
             this.pnl_Chats.SuspendLayout();
             this.pnl_buscar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txt_buscarUseChat)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_fotoChats)).BeginInit();
             this.pnl_InfoPer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_FotoinfoPer)).BeginInit();
             this.panel7.SuspendLayout();
-            this.formHijo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pnl_titulo
@@ -89,7 +80,7 @@ namespace Red_Social
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(6, 5);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(164, 16);
+            this.label2.Size = new System.Drawing.Size(163, 16);
             this.label2.TabIndex = 2;
             this.label2.Text = "Red Social MisofMava";
             // 
@@ -163,11 +154,11 @@ namespace Red_Social
             this.txt_buscarUseChat.EditBoxStyle.BorderStyle.GradientEndColor = System.Drawing.Color.WhiteSmoke;
             this.txt_buscarUseChat.EditBoxStyle.BorderStyle.GradientStartColor = System.Drawing.Color.WhiteSmoke;
             this.txt_buscarUseChat.EditBoxStyle.BorderStyle.SolidColor = System.Drawing.Color.WhiteSmoke;
-            this.txt_buscarUseChat.EditBoxStyle.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_buscarUseChat.EditBoxStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_buscarUseChat.EditBoxStyle.ForeColor = System.Drawing.Color.DimGray;
             this.txt_buscarUseChat.Location = new System.Drawing.Point(8, 9);
             this.txt_buscarUseChat.Name = "txt_buscarUseChat";
-            this.txt_buscarUseChat.Size = new System.Drawing.Size(302, 32);
+            this.txt_buscarUseChat.Size = new System.Drawing.Size(302, 31);
             this.txt_buscarUseChat.TabIndex = 1;
             this.txt_buscarUseChat.ValidationStyle.PasswordChar = '\0';
             this.txt_buscarUseChat.Value = "Buscar...";
@@ -196,55 +187,11 @@ namespace Red_Social
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel1.Controls.Add(this.pic_fotoChats);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.bt_mensajes);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(320, 75);
             this.panel1.TabIndex = 1;
-            // 
-            // pic_fotoChats
-            // 
-            this.pic_fotoChats.BaseColor = System.Drawing.Color.White;
-            this.pic_fotoChats.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pic_fotoChats.Image = ((System.Drawing.Image)(resources.GetObject("pic_fotoChats.Image")));
-            this.pic_fotoChats.Location = new System.Drawing.Point(9, 0);
-            this.pic_fotoChats.Name = "pic_fotoChats";
-            this.pic_fotoChats.Size = new System.Drawing.Size(73, 73);
-            this.pic_fotoChats.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pic_fotoChats.TabIndex = 3;
-            this.pic_fotoChats.TabStop = false;
-            this.pic_fotoChats.UseTransfarantBackground = false;
-            this.pic_fotoChats.Click += new System.EventHandler(this.pic_fotoChats_Click_1);
-            // 
-            // button2
-            // 
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(279, 29);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(24, 28);
-            this.button2.TabIndex = 2;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // bt_mensajes
-            // 
-            this.bt_mensajes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bt_mensajes.FlatAppearance.BorderSize = 0;
-            this.bt_mensajes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
-            this.bt_mensajes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_mensajes.Image = ((System.Drawing.Image)(resources.GetObject("bt_mensajes.Image")));
-            this.bt_mensajes.Location = new System.Drawing.Point(238, 29);
-            this.bt_mensajes.Name = "bt_mensajes";
-            this.bt_mensajes.Size = new System.Drawing.Size(38, 28);
-            this.bt_mensajes.TabIndex = 1;
-            this.bt_mensajes.UseVisualStyleBackColor = true;
-            this.bt_mensajes.Click += new System.EventHandler(this.bt_mensajes_Click);
             // 
             // pnl_InfoPer
             // 
@@ -273,10 +220,10 @@ namespace Red_Social
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(97, 331);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(90, 25);
+            this.label13.Size = new System.Drawing.Size(99, 25);
             this.label13.TabIndex = 4;
             this.label13.Text = "Mi Perfil";
             // 
@@ -308,32 +255,12 @@ namespace Red_Social
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(111, 27);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(90, 25);
+            this.label12.Size = new System.Drawing.Size(99, 25);
             this.label12.TabIndex = 2;
             this.label12.Text = "Mi Perfil";
-            // 
-            // formHijo
-            // 
-            this.formHijo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.formHijo.Controls.Add(this.pictureBox1);
-            this.formHijo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.formHijo.Location = new System.Drawing.Point(320, 30);
-            this.formHijo.Name = "formHijo";
-            this.formHijo.Size = new System.Drawing.Size(960, 635);
-            this.formHijo.TabIndex = 2;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(221, 127);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(546, 281);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // timerAbrir
             // 
@@ -364,7 +291,6 @@ namespace Red_Social
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1280, 665);
-            this.Controls.Add(this.formHijo);
             this.Controls.Add(this.pnl_Chats);
             this.Controls.Add(this.pnl_titulo);
             this.DoubleBuffered = true;
@@ -380,15 +306,11 @@ namespace Red_Social
             this.pnl_Chats.ResumeLayout(false);
             this.pnl_buscar.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.txt_buscarUseChat)).EndInit();
-            this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pic_fotoChats)).EndInit();
             this.pnl_InfoPer.ResumeLayout(false);
             this.pnl_InfoPer.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_FotoinfoPer)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
-            this.formHijo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -400,21 +322,16 @@ namespace Red_Social
         private Guna.UI.WinForms.GunaControlBox gunaControlBox1;
         private System.Windows.Forms.Panel pnl_Chats;
         private System.Windows.Forms.Panel pnl_InfoPer;
-        private System.Windows.Forms.Panel formHijo;
         private System.Windows.Forms.Panel pnl_buscar;
    
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button bt_mensajes;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Timer timerAbrir;
         private System.Windows.Forms.Timer timerCerrar;
-        private Guna.UI.WinForms.GunaCirclePictureBox pic_fotoChats;
         private Guna.UI.WinForms.GunaCirclePictureBox pic_FotoinfoPer;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
         private Guna.UI.WinForms.GunaSeparator gunaSeparator2;

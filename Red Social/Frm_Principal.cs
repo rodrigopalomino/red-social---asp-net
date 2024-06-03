@@ -20,7 +20,7 @@ namespace Red_Social
         {
             InitializeComponent();
         }
-        private void abrirChat(Frm_Chats chat, Image imagen, string titulo)
+        private void abrirChat(Frm_Chat chat, Image imagen, string titulo)
         {
             if(chatactual != null)
             {
@@ -172,9 +172,9 @@ namespace Red_Social
                 }
                ;
             }
-            Frm_Chats.usuario = titulo;
+            Frm_Chat.usuario = titulo;
            
-            abrirChat(new Frm_Chats(),imagen,titulo);
+            abrirChat(new Frm_Chat(),imagen,titulo);
             
             
 

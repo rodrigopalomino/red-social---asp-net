@@ -11,12 +11,12 @@ using System.Windows.Forms;
 
 namespace Red_Social
 {
-    public partial class Frm_Chats : Form
+    public partial class Frm_Chat : Form
     {
         DataMensajes objetoMsg = new DataMensajes();
         public static string usuario = "";
 
-        public Frm_Chats()
+        public Frm_Chat()
         {
             InitializeComponent();
         }
@@ -169,6 +169,11 @@ namespace Red_Social
         {
             limpiarPanel();
             CargarMensajes();
+        }
+
+        private void lbl_nombrecon_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

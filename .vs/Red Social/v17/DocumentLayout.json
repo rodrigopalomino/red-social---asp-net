@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\USER\\Downloads\\Red social - asp net\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1228F74-2EB7-4229-841F-5716186314F6}|Red Social\\Red Social.csproj|c:\\users\\user\\downloads\\red social - asp net\\red social\\frm_chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A1228F74-2EB7-4229-841F-5716186314F6}|Red Social\\Red Social.csproj|solutionrelative:red social\\frm_chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1228F74-2EB7-4229-841F-5716186314F6}|Red Social\\Red Social.csproj|c:\\users\\user\\downloads\\red social - asp net\\red social\\frm_chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1228F74-2EB7-4229-841F-5716186314F6}|Red Social\\Red Social.csproj|solutionrelative:red social\\frm_chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1228F74-2EB7-4229-841F-5716186314F6}|Red Social\\Red Social.csproj|c:\\users\\user\\downloads\\red social - asp net\\red social\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A1228F74-2EB7-4229-841F-5716186314F6}|Red Social\\Red Social.csproj|solutionrelative:red social\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1228F74-2EB7-4229-841F-5716186314F6}|Red Social\\Red Social.csproj|c:\\users\\user\\downloads\\red social - asp net\\red social\\datamensajes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1228F74-2EB7-4229-841F-5716186314F6}|Red Social\\Red Social.csproj|solutionrelative:red social\\datamensajes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1228F74-2EB7-4229-841F-5716186314F6}|Red Social\\Red Social.csproj|c:\\users\\user\\downloads\\red social - asp net\\red social\\capadatos\\repositoriomaestro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1228F74-2EB7-4229-841F-5716186314F6}|Red Social\\Red Social.csproj|solutionrelative:red social\\capadatos\\repositoriomaestro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1228F74-2EB7-4229-841F-5716186314F6}|Red Social\\Red Social.csproj|c:\\users\\user\\downloads\\red social - asp net\\red social\\capadatos\\repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1228F74-2EB7-4229-841F-5716186314F6}|Red Social\\Red Social.csproj|solutionrelative:red social\\capadatos\\repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1228F74-2EB7-4229-841F-5716186314F6}|Red Social\\Red Social.csproj|c:\\users\\user\\downloads\\red social - asp net\\red social\\capadatos\\cache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1228F74-2EB7-4229-841F-5716186314F6}|Red Social\\Red Social.csproj|solutionrelative:red social\\capadatos\\cache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +59,95 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Frm_Chat.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\Red social - asp net\\Red Social\\Frm_Chat.cs",
+              "RelativeDocumentMoniker": "Red Social\\Frm_Chat.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\Red social - asp net\\Red Social\\Frm_Chat.cs",
+              "RelativeToolTip": "Red Social\\Frm_Chat.cs",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAiwK8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T08:15:57.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Frm_Principal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\Red social - asp net\\Red Social\\Frm_Principal.cs",
+              "RelativeDocumentMoniker": "Red Social\\Frm_Principal.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\Red social - asp net\\Red Social\\Frm_Principal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Red Social\\Frm_Principal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T08:15:28.865Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Frm_Chat.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\Red social - asp net\\Red Social\\Frm_Chat.cs",
+              "RelativeDocumentMoniker": "Red Social\\Frm_Chat.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\Red social - asp net\\Red Social\\Frm_Chat.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Red Social\\Frm_Chat.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T08:15:28.151Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataMensajes.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\Red social - asp net\\Red Social\\DataMensajes.cs",
+              "RelativeDocumentMoniker": "Red Social\\DataMensajes.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\Red social - asp net\\Red Social\\DataMensajes.cs",
+              "RelativeToolTip": "Red Social\\DataMensajes.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T08:15:09.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cache.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\Red social - asp net\\Red Social\\CapaDatos\\Cache.cs",
+              "RelativeDocumentMoniker": "Red Social\\CapaDatos\\Cache.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\Red social - asp net\\Red Social\\CapaDatos\\Cache.cs",
+              "RelativeToolTip": "Red Social\\CapaDatos\\Cache.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T08:14:27.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Repositorio.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\Red social - asp net\\Red Social\\CapaDatos\\Repositorio.cs",
+              "RelativeDocumentMoniker": "Red Social\\CapaDatos\\Repositorio.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\Red social - asp net\\Red Social\\CapaDatos\\Repositorio.cs",
+              "RelativeToolTip": "Red Social\\CapaDatos\\Repositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T08:14:26.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RepositorioMaestro.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\Red social - asp net\\Red Social\\CapaDatos\\RepositorioMaestro.cs",
+              "RelativeDocumentMoniker": "Red Social\\CapaDatos\\RepositorioMaestro.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\Red social - asp net\\Red Social\\CapaDatos\\RepositorioMaestro.cs",
+              "RelativeToolTip": "Red Social\\CapaDatos\\RepositorioMaestro.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAA0AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T08:14:25.275Z",
+              "EditorCaption": ""
             }
           ]
         }

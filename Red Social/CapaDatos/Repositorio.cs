@@ -13,7 +13,6 @@ namespace Red_Social.CapaDatos
         public Repositorio()
         {
             CadenaConexion = "server =.; database=RedSocial; integrated security=true";
-            //CadenaConexion = "workstation id=RedSocial.mssql.somee.com;packet size=4096;user id=JEINER_SQLLogin_1;pwd=ossejix6nm;data source=RedSocial.mssql.somee.com;persist security info=False;initial catalog=RedSocial";
         }
         protected SqlConnection ObtenerConexion()
         {

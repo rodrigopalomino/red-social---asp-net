@@ -65,11 +65,11 @@
     <Compile Include="CapaDatos\Repositorio.cs" />
     <Compile Include="CapaDatos\RepositorioMaestro.cs" />
     <Compile Include="DataMensajes.cs" />
-    <Compile Include="Frm_Chats.cs">
+    <Compile Include="Frm_Chat.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Chats.Designer.cs">
-      <DependentUpon>Frm_Chats.cs</DependentUpon>
+    <Compile Include="Frm_Chat.Designer.cs">
+      <DependentUpon>Frm_Chat.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_Principal.cs">
       <SubType>Form</SubType>
@@ -79,8 +79,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Frm_Chats.resx">
-      <DependentUpon>Frm_Chats.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_Chat.resx">
+      <DependentUpon>Frm_Chat.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Principal.resx">
       <DependentUpon>Frm_Principal.cs</DependentUpon>

@@ -1,7 +1,7 @@
 ﻿
 namespace Red_Social
 {
-    partial class Frm_Chats
+    partial class Frm_Chat
     {
         /// <summary>
         /// Required designer variable.
@@ -30,9 +30,8 @@ namespace Red_Social
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Chats));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Chat));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pic_fotoChatsAc = new Guna.UI.WinForms.GunaCirclePictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.lbl_nombrecon = new System.Windows.Forms.Label();
@@ -53,7 +52,6 @@ namespace Red_Social
             this.panel2 = new System.Windows.Forms.Panel();
             this.timerCargarChats = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_fotoChatsAc)).BeginInit();
             this.pnl_infoChats.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_FotoinfoPerac)).BeginInit();
             this.panel4.SuspendLayout();
@@ -64,7 +62,6 @@ namespace Red_Social
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel1.Controls.Add(this.pic_fotoChatsAc);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.lbl_nombrecon);
@@ -73,20 +70,6 @@ namespace Red_Social
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(960, 75);
             this.panel1.TabIndex = 0;
-            // 
-            // pic_fotoChatsAc
-            // 
-            this.pic_fotoChatsAc.BaseColor = System.Drawing.Color.White;
-            this.pic_fotoChatsAc.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pic_fotoChatsAc.Image = ((System.Drawing.Image)(resources.GetObject("pic_fotoChatsAc.Image")));
-            this.pic_fotoChatsAc.Location = new System.Drawing.Point(0, 0);
-            this.pic_fotoChatsAc.Name = "pic_fotoChatsAc";
-            this.pic_fotoChatsAc.Size = new System.Drawing.Size(73, 73);
-            this.pic_fotoChatsAc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pic_fotoChatsAc.TabIndex = 5;
-            this.pic_fotoChatsAc.TabStop = false;
-            this.pic_fotoChatsAc.UseTransfarantBackground = false;
-            this.pic_fotoChatsAc.Click += new System.EventHandler(this.pic_fotoChats_Click_1);
             // 
             // button2
             // 
@@ -119,13 +102,14 @@ namespace Red_Social
             // lbl_nombrecon
             // 
             this.lbl_nombrecon.AutoSize = true;
-            this.lbl_nombrecon.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_nombrecon.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_nombrecon.ForeColor = System.Drawing.Color.White;
             this.lbl_nombrecon.Location = new System.Drawing.Point(90, 28);
             this.lbl_nombrecon.Name = "lbl_nombrecon";
-            this.lbl_nombrecon.Size = new System.Drawing.Size(52, 19);
+            this.lbl_nombrecon.Size = new System.Drawing.Size(51, 20);
             this.lbl_nombrecon.TabIndex = 2;
             this.lbl_nombrecon.Text = "Amor";
+            this.lbl_nombrecon.Click += new System.EventHandler(this.lbl_nombrecon_Click);
             // 
             // pnl_infoChats
             // 
@@ -154,7 +138,7 @@ namespace Red_Social
             // 
             // lblnomcontacinfo
             // 
-            this.lblnomcontacinfo.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnomcontacinfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblnomcontacinfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblnomcontacinfo.Location = new System.Drawing.Point(9, 321);
             this.lblnomcontacinfo.Name = "lblnomcontacinfo";
@@ -191,11 +175,11 @@ namespace Red_Social
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.White;
             this.label12.Location = new System.Drawing.Point(59, 31);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(188, 25);
+            this.label12.Size = new System.Drawing.Size(191, 25);
             this.label12.TabIndex = 4;
             this.label12.Text = "Info del Contacto";
             // 
@@ -234,11 +218,11 @@ namespace Red_Social
             this.txt_escribirMensaje.EditBoxStyle.BorderStyle.GradientEndColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txt_escribirMensaje.EditBoxStyle.BorderStyle.GradientStartColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txt_escribirMensaje.EditBoxStyle.BorderStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txt_escribirMensaje.EditBoxStyle.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_escribirMensaje.EditBoxStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_escribirMensaje.EditBoxStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txt_escribirMensaje.Location = new System.Drawing.Point(103, 9);
             this.txt_escribirMensaje.Name = "txt_escribirMensaje";
-            this.txt_escribirMensaje.Size = new System.Drawing.Size(800, 32);
+            this.txt_escribirMensaje.Size = new System.Drawing.Size(800, 31);
             this.txt_escribirMensaje.TabIndex = 13;
             this.txt_escribirMensaje.ValidationStyle.PasswordChar = '\0';
             this.txt_escribirMensaje.Value = "Escribir Mensaje...";
@@ -328,7 +312,6 @@ namespace Red_Social
             this.Load += new System.EventHandler(this.Frm_Chats_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_fotoChatsAc)).EndInit();
             this.pnl_infoChats.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pic_FotoinfoPerac)).EndInit();
             this.panel4.ResumeLayout(false);
@@ -359,7 +342,6 @@ namespace Red_Social
         private System.Windows.Forms.Timer timerCerrar;
         public System.Windows.Forms.Label lbl_nombrecon;
         private Guna.UI.WinForms.GunaCirclePictureBox pic_FotoinfoPerac;
-        public Guna.UI.WinForms.GunaCirclePictureBox pic_fotoChatsAc;
         private Guna.UI.WinForms.GunaSeparator gunaSeparator1;
         private System.Windows.Forms.Panel panel2;
         private Klik.Windows.Forms.v1.EntryLib.ELEntryBox txt_escribirMensaje;

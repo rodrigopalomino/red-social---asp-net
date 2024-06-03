@@ -9,6 +9,6 @@ namespace Red_Social.CapaDatos
     public static class Cache
     {
         public static int id_usuario = 1;
-        public static string usuario = "Jeiner";
+        public static string usuario = "rodrigo";
     }
 }
